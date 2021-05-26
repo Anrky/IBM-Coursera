@@ -34,7 +34,10 @@ function compute()
     at an interest rate of <span class="hi">${r}%</span>.<br>
     You will recieve an amount of  <span class="hi">${si}</span>,<br>
     in the year  <span class="hi">${ep}</span>`;
-    document.getElementById("opt").innerHTML = str;
+    if(p>0){document.getElementById("opt").innerHTML = str;}
+    else{
+      document.getElementById("opt").innerHTML = alert("Please enter a positive value");
+    }
     
 }
 
