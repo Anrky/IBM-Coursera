@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+h1 {
+  color: rgb(116, 114, 114);
+}
+.outer {
+  background-color: rgb(255, 255, 255);
+  padding: 20px 15px 2px 15px;
+  border-radius: 25px;
+  width: 420px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inner {
+  padding: 0px 50px;
+}
+
+#principal {
+  margin-left: 65px;
+  margin-bottom: 20px;
+}
+
+#years {
+  margin-left: 33px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.range-wrap {
+  position: relative;
+  display: inline;
+}
+.range {
+  margin-left: 30px;
+  width: 170px;
+}
+.bubble {
+  background: rgb(83, 83, 83);
+  color: white;
+  padding: 4px 12px;
+  position: absolute;
+  border-radius: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.bubble::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: rgb(44, 44, 44);
+  top: -1px;
+  left: 50%;
+}
+
+button {
+  margin-bottom: 10px;
+}
