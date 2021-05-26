@@ -30,10 +30,10 @@ function compute()
     si = p*((r/100)*n);
     cp = 2020;
     ep = cp + parseInt(n);
-    let str = `If you deposit ${p},<br>
-    at an interest rate of ${r}%.<br>
-    You will recieve an amount of ${si},<br>
-    in the year ${ep}`;
+    let str = `If you deposit <span class="hi">${p}</span>,<br>
+    at an interest rate of <span class="hi">${r}%</span>.<br>
+    You will recieve an amount of  <span class="hi">${si}</span>,<br>
+    in the year  <span class="hi">${ep}</span>`;
     document.getElementById("opt").innerHTML = str;
     
 }
