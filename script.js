@@ -28,7 +28,7 @@ function compute()
     r = document.querySelector(".range").value;
     n = document.getElementById("years").value;
     si = p*((r/100)*n);
-    ep = parseInt(2020) + n;
+    ep = n + 2020;
     let str = `If you deposit ${p},<br>
     at an interest rate of ${r}%.<br>
     You will recieve an amount of ${si},<br>
