@@ -27,11 +27,11 @@ function compute()
     p = document.getElementById("principal").value;
     r = document.querySelector(".range").value;
     n = document.getElementById("years").value;
-    si = p*(1+(r/100)*n);
+    si = p*((r/100)*n);
     let str = `If you deposit ${p},<br>
     at an interest rate of ${r}%.<br>
     You will recieve an amount of ${si},<br>
-    in the year 202${n}`;
+    in the year 2020 +${n}`;
     document.getElementById("opt").innerHTML = str;
     
 }
